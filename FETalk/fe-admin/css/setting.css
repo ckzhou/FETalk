@@ -1,0 +1,41 @@
+.setting-page{
+	width:600px;
+}
+#pageTable{
+	margin-bottom:10px;
+}
+#pageTable .name{
+	padding-left:5px;
+}
+#pageTable .template{
+	width:200px;
+}
+#pageTable .operation{
+	width:100px;
+	text-align:center;
+}
+#pageTable a.edit,a.update{
+	margin-right:5px;
+}
+#pageTable tfoot{
+	display:none;
+}
+#contentBox{
+	width:410px;
+}
+#editing-page,#editing-template{
+	display:none;
+	height:20px;
+	line-height:20px;
+	margin-top:3px;
+	float:left;
+}
+#editing-template{
+	width:180px;
+}
+#editing-page{
+	width:250px;
+}
+#no-result{
+	text-align:center;
+}

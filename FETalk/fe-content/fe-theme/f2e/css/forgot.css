@@ -1,0 +1,35 @@
+.forgot-form{
+	width:360px;
+	margin:50px auto;
+}
+input.name{
+	margin-left:0px;
+	font-weight:normal;
+	width:250px;
+	height:25px;
+	outline:none;
+	border:1px solid #C0C0C0;
+	padding:0 0 0 5px;
+	border:1px solid #F7F7F7;
+	border-radius:5px;
+	box-shadow:inset 0 0 5px #A5A5A5;
+}
+#form-submit{
+	width:64px;
+}
+/*=====css for error-form=====*/
+#form-error{
+	width:623px;
+	padding:10px 0 10px 30px;
+	margin:5px 0 10px 0;
+	background-color:#f2dede;
+	border:1px solid #eed3d7;
+	border-radius:5px;
+}
+#form-error li{
+	list-style-type:disc;
+	color:#b94a48;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}

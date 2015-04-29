@@ -1,0 +1,116 @@
+html,body{
+	width:100%;
+}
+.wrapper{
+	margin:100px auto 0 auto;
+	width:300px;
+	position:relative;
+}
+.logo{
+	width:100%;
+	margin-bottom:20px;
+}
+.logo-pic{
+	display:block;
+	margin:0 auto;
+}
+.login{
+	position:relative;
+}
+.login-form{
+	position:absolute;
+	left:0px;
+	border:1px solid #E7E7E7;
+	border-radius:3px;
+	padding:20px 15px 0 15px;
+	color:#757575;
+	box-shadow:0 0 10px #C0C0C0;
+}
+.form-control{
+	margin-bottom:15px;
+}
+label{
+	display:block;
+	font-size:14px;
+}
+.input{
+	display:block;
+	width:266px;
+	height:25px;
+	border:1px solid #E7E7E7;
+	outline:none;
+	border-radius:3px;
+	margin-top:2px;
+	box-shadow:0 0 5px #DDDDDD inset;
+}
+.focus{
+	border-color:#828282;
+}
+.bottom{
+	overflow:hidden;
+	font-size:12px;
+}
+.log-identification{
+	float:left;
+}
+.btn{
+	float:right;
+}
+.identification,.log-identification label{
+	float:left;
+}
+.log-identification label{
+	font-size:12px;
+	margin:1px 0 0 2px;
+}
+.login-btn{
+	display:block;
+	width:45px;
+	height:30px;
+	border-radius:3px;
+	background-color:#1188FF;
+	text-align:center;
+	color:#FFF;
+	outline:none;
+	border:none;
+	padding:0;
+}
+.login-btn:hover{
+	background-color:#007BB7;
+}
+.forgot-pwd-link{
+	position:absolute; 
+	top:185px;
+	display:block;
+	font-size:12px;
+	color:#1188FF;
+	margin:20px;
+}
+#error{
+	margin-bottom:15px;
+	padding-left:10px;
+	border:1px solid #DB0000;
+	border-radius:3px;
+	background-color:#FFCECE;
+	color:#000;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+#form-error{
+	width:285px;
+	padding:5px 0 5px 15px;
+	margin:5px 0 10px 0;
+	background-color:#f2dede;
+	border:1px solid #eed3d7;
+	border-radius:5px;
+}
+#form-error li{
+	list-style-type:none;
+	color:#b94a48;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}
+
+

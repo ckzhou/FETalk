@@ -1,0 +1,29 @@
+h1.topic-page .icon{
+	background-position:-68px 5px;
+}
+.all-topic{
+	width:719px;
+}
+#topicTable .title{
+	padding-left:5px;
+	overflow:hidden;
+}
+#topicTable .node{
+	width:100px;
+}
+#topicTable .time{
+	width:150px;
+}
+#topicTable .author{
+	width:100px;
+}
+#topicTable .deletion{
+	width:50px;
+}
+#topicTable tbody #no-result,#no-topic{
+	display:table-row;
+	text-align:center;
+}
+#template,#no-result{
+	display:none;
+}

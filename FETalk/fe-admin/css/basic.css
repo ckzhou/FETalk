@@ -1,0 +1,111 @@
+/*basic css for content*/
+.contentWrapper{
+	float:left;
+	width:1159px;
+	padding:60px 20px 120px 20px;
+}
+.contentWrapper a{
+	color:#000;
+}
+.contentWrapper a:hover{
+	text-decoration:underline;
+}
+.subject{
+	font-size:24px;
+	font-weight:normal;
+	height:50px;
+	line-height:50px;
+	color:#737373;
+	margin-bottom:30px;
+	padding-left:30px;
+}
+.icon{
+	display:block;
+	width:45px;
+	height:50px;
+	background:url(image/icons_spirit.png) no-repeat -555px 5px;
+	float:left;
+}
+.contentBox{
+	float:left;
+	padding-left:30px;
+}
+.addItem{
+	float:left;
+	width:380px;
+	margin-right:30px;
+	position:relative;
+}
+.sub-subject{
+	display:block;
+	font-size:13px;
+	color:#414141;
+	font-weight:bold;
+	height:20px;
+	line-height:20px;
+	margin-bottom:15px;
+	font-style:normal;
+	border-bottom:2px solid #000;
+}
+.form-control{
+	margin-bottom:20px;
+}
+i{
+	display:block;
+	font-size:12px;
+	height:30px;
+	line-height:30px;
+	color:#373737;
+	font-style:normal;
+}
+i.explanation{
+	color:#616161;
+}
+input.newItemName{
+	width:372px;
+	height:25px;
+	outline:none;
+	border:1px solid #E1E1E1;
+	border-radius:3px;
+	padding-left:3px;
+}
+.submit{
+	display:block;
+	width:45px;
+	height:30px;
+	border-radius:3px;
+	background-color:#007BB7;
+	text-align:center;
+	color:#FFF;
+	outline:none;
+	border:none;
+	padding:0;
+	cursor:pointer;
+}
+.submit:hover{
+	background-color:#1188FF;
+}
+.allItem{
+	float:left;
+	width:600px;
+	border-bottom:none;
+	border-radius:5px;
+}
+.contentTable{
+	width:100%;
+	border-collapse:collapse;
+	font-size:13px;
+	border-radius:5px 5px 0 0;
+	border:1px solid #f2f2f2;
+}
+.contentTable th{
+	height:30px;
+	line-height:30px;
+	background-color:#f2f2f2;
+	text-align:left;
+	color:#006DA2;
+}
+.contentTable td{
+	height:30px;
+	line-height:30px;
+}

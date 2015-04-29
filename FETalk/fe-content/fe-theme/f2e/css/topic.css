@@ -1,0 +1,257 @@
+/*=====rewrite css=====*/
+.main{
+	width:675px;
+	padding:0px;
+	position:relative;
+	background-color:transparent;
+	border:none;
+	border-radius:none;
+}
+.author-face{
+	position:absolute;
+	top:10px;
+	right:10px;
+	margin:0px;
+}
+h6.subject{
+	color:#1F1F1F;
+	font-size:13px;
+	height:36px;
+	line-height:36px;
+	padding-left:10px;
+	border-color:#eee;
+}
+/*=====css for topic-content=====*/
+.topic-content,.no-reply,.reply-box,.login-box,.topic-replies{
+	border:1px solid #B9B9B9;
+	border-radius:5px;
+	margin-bottom:10px;
+	background-color:#FFF;
+}
+.topic-header{
+	height:80px;
+	border-radius:5px 5px 0 0;
+	background-color:#f5f5f5;
+}
+.topic-title{
+	color:#555;
+	font-size:20px;
+	height:25px;
+	line-height:25px;
+	padding:10px 0 0 10px;
+}
+.meta-data{
+	border-bottom:1px solid #eee;
+	padding:0 0 10px 10px;
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+}
+.meta-data a{
+	color:#555;
+}
+.meta-data a:hover{
+	text-decoration:underline;
+}
+.meta-data .meta-node{
+	background-color:transparent;
+	padding:0px;
+}
+.meta-data span{
+	margin-left:3px;
+}
+.meta-data span a{
+	margin-left:2px;
+}
+.topic-text{
+	padding:20px 10px;
+	color:#1F1F1F;
+	line-height:25px;
+	font-size:14px;
+}
+.topic-text *{
+	color:#1F1F1F;
+	font-size:14px;
+	font-weight:normal;
+	font-family:'"Helvetica Neue",Helvetica,Arial,sans-serif';
+}
+.topic-text a{
+	text-decoration:underline;
+}
+.topic-operation{
+	height:30px;
+	line-height:30px;
+	background-color:#DFDFDF;
+	border-radius:0 0 5px 5px;
+	padding-left:10px;
+	font-size:13px;
+}
+.topic-operation a{
+	color:#1F1F1F;
+	font-size:13px;
+	text-shadow:0 0 3px #FFFFFF;
+	margin-right:20px;
+}
+.topic-operation a:hover{
+	text-decoration:underline;
+}
+.topic-operation span{
+	float:right;
+	margin-right:20px;
+	text-shadow:0 0 3px #FFFFFF;
+}
+
+/*=====css for reply box=====*/
+.no-reply{
+	background-color:transparent;
+	height:30px;
+	border:1px dashed #868686;
+	color:#868686;
+	font-size:13px;
+	text-align:center;
+	line-height:30px;
+}
+.reply-box .subject{
+	margin:0 10px;
+	padding-left:0;
+}
+.reply-form{
+	padding:10px;
+}
+.reply-form textarea{
+	resize:vertical;
+	height:225px;
+	padding:5px 0 0 5px;
+	box-shadow:inset 0 0 5px #A5A5A5;
+	border-radius:5px;
+	border:1px solid #F7F7F7;
+	width:648px;
+	outline:none;
+	margin-bottom:10px;
+	font-size:13px;
+}
+.submitReply{
+	outline:none;
+	border:1px solid #C0C0C0;
+	border-radius:3px;
+	background-color:#F2F2F2;
+	color:#2A2A2A;
+	padding:5px 10px;
+	cursor:pointer;
+	float:none;
+}
+.submitReply:hover{
+	background-color:#EBEBEB;
+}
+
+/*=====css for reply-text=====*/
+.topic-replies h6{
+	height:30px;
+	line-height:30px;
+	background-color:#EEEEEE;
+	border-radius:5px 5px 0 0;
+}
+.reply-item{
+	padding:10px;
+	border-bottom:1px solid #eee;
+	overflow:hidden;
+}
+.replier-face{
+	float:left;
+}
+.replier-face img{
+	border-radius:3px;
+}
+.reply-content{
+	float:left;
+	margin-left:10px;
+	width:595px;
+	line-height:25px;
+}
+.reply-meta{
+	overflow:hidden;
+	width:595px;
+	float:left;
+	font-size:13px;
+	height:25px;
+	line-height:25px;
+	margin-bottom:5px;
+}
+#edit-reply{
+	font-weight:normal;
+}
+.reply-meta-left{
+	float:left;
+}
+.reply-meta-left a{
+	color:#808080;
+	font-weight:bold;
+}
+.reply-meta-left a:hover{
+	text-decoration:underline;
+}
+.reply-meta-right{
+	float:right;
+}
+.reply-someone{
+	margin-right:2px;
+	float:right;
+}
+.agree-reply{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url(../images/agree.png) no-repeat left top;
+	float:right;
+	margin:0 5px;
+	text-indent:-1000px;
+}
+.agree-already{
+	background-position:left -16px;
+}
+.agree-amounts{
+	color:#666;
+	line-height:16px;
+	float:right;
+}
+.reply-text,.reply-text *{
+	color:#1F1F1F;
+	font-size:14px;
+}
+/*=====css for login-box=====*/
+.login-box{
+	overflow:hidden;
+}
+.login-box .button{
+	display:block;
+	float:left;
+	width:45px;
+	height:25px;
+	line-height:25px;
+	background-color:#e4e4e4;
+	border-radius:5px;
+	border:1px solid #bfbfbf;
+	font-size:12px;
+	color:#1F1F1F;
+	margin:10px;
+	text-align:center;
+}
+.login-box .button:hover{
+	background-color:#d7d7d7;
+}
+
+#form-error{
+	width:623px;
+	padding:10px 0 10px 30px;
+	margin:5px 0 0 10px;
+	background-color:#f2dede;
+	border:1px solid #eed3d7;
+	border-radius:5px;
+}
+#form-error li{
+	list-style-type:disc;
+	color:#b94a48;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}

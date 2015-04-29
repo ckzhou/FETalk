@@ -1,0 +1,132 @@
+/*=====css for header=====*/
+.header{
+	width:100%;
+	height:30px;
+	background-color:#4B4B4B;
+	position:fixed;
+	z-index:100;
+}
+.header a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	letter-spacing:1px;
+	font-size:12px;
+	color:#D1D1D1;
+	padding:0 15px;
+}
+.header a:hover{
+	background-color:#2D2D2D;
+}
+.header-left{
+	float:left;
+}
+.header-options li{
+	float:left;
+	position:relative;
+}
+li.administrator{
+	border-left:1px solid #646464;
+	border-right:1px solid #646464;
+}
+li.small-logo{
+	border:none;
+}
+li.new-item a{
+	padding-left:30px;
+	background:url(image/new-ico.png) no-repeat 10px center;
+}
+.header-options li img{
+	margin-top:4px;
+}
+.user-info{
+	border-left:1px solid #646464;
+}
+.avatar-thumbnail{
+	vertical-align:top;
+	margin:3px 0 0 10px;
+	border:1px solid #C0C0C0;
+}
+.sub-options{
+	position:absolute;
+	left:-1px;
+	border:2px solid #DFDFDF;
+	border-top:none;
+	display:none;
+	background-color:#FFF;
+}
+.sub-options li{
+	height:35px;
+	line-height:35px;
+}
+.sub-options li a{
+	width:110px;
+	height:25px;
+	line-height:25px;
+	margin-top:5px;
+	color:#0088CA;
+	font-size:12px;
+	background-image:none;
+	padding-left:10px;
+}
+.sub-options li a:hover{
+	background-color:#E1FFFF;
+}
+.header-right{
+	float:right;
+}
+.user-info{
+	position:relative;
+}
+.detail-user-info{
+	display:none;
+	position:absolute;
+	width:300px;
+	left:-165px;
+	padding:13px 0 0 13px;
+	border:2px solid #DFDFDF;
+	border-top:none;
+	background-color:#FFF;
+}
+.big-avatar,.account-operation{
+	float:left;
+}
+a.big-avatar{
+	padding:0;
+	margin-right:10px;
+}
+.big-avatar img{
+	width:60px;
+	height:60px;
+	border:2px solid #B4B4B4;
+}
+.account-operation{
+	width:210px;
+}
+a.username{
+	padding:0 0 0 5px;
+	height:20px;
+	line-height:20px;
+	color:#282828;
+	font-size:14px;
+	margin-bottom:10px;
+}
+a.username:hover{
+	background-color:#FFF;
+}
+a.operation{
+	padding:0 0 0 5px;
+	height:25px;
+	line-height:25px;
+	color:#0088CA;
+}
+a.logout{
+	margin-bottom:5px;
+}
+a.operation:hover{
+	background-color:#E1FFFF;
+}
+
+
+
+

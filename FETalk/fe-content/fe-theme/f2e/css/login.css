@@ -1,0 +1,20 @@
+.login-form{
+	width:360px;
+	margin:50px auto;
+}
+/*=====css for error-form=====*/
+#form-error{
+	width:623px;
+	padding:10px 0 10px 30px;
+	margin:5px 0 10px 0;
+	background-color:#f2dede;
+	border:1px solid #eed3d7;
+	border-radius:5px;
+}
+#form-error li{
+	list-style-type:disc;
+	color:#b94a48;
+	height:20px;
+	line-height:20px;
+	font-size:13px;
+}

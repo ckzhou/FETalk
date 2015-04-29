@@ -1,0 +1,33 @@
+h1.category-page .icon{
+	background-position:-310px 5px;
+}
+#categoryTable .name{
+	padding-left:5px;
+	width:250px;
+	max-width:250px;
+}
+#categoryTbale .number{
+	width:250px;
+}
+#categoryTable .edition{
+	width:100px;
+	text-align:center;
+}
+#categoryTable td.number{
+	padding-left:5px;
+}
+#categoryTable #tr-template{
+	display:none;
+}
+#editing{
+	float:left;
+	width:230px;
+	height:20px;
+	line-height:20px;
+	margin-top:3px;
+	display:none;
+}
+#quit{
+	font-size:13px;
+	display:none;
+}
